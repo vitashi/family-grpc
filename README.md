@@ -1,2 +1,2 @@
-# product-calalogue-grpc
+# product-catalogue-grpc
 Trying out grpc
