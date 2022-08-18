@@ -1,2 +1,2 @@
-# family-grpc
+# product-calalogue-grpc
 Trying out grpc
