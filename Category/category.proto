@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package CategoryPackage;
+
+service Category {
+    rpc createCategory (NewCategory) returns (CategoryItem) {};
+    rpc getCategories (void) returns (CategoryItems);
+};
+
+message void {};
+
+message CategoryItem {
+    string name = 1;
+};
+
+message NewCategory {
+    string name = 1;
+};
+
+message CategoryItems {
+    repeated CategoryItem items = 1;
+};

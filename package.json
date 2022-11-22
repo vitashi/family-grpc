@@ -1,0 +1,27 @@
+{
+  "name": "product-catalogue-grpc",
+  "version": "1.0.0",
+  "description": "Trying out grpc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitashi/product-catalogue-grpc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitashi/product-catalogue-grpc/issues"
+  },
+  "homepage": "https://github.com/vitashi/product-catalogue-grpc#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.10",
+    "@grpc/proto-loader": "^0.7.2",
+    "grpc": "^1.24.11"
+  },
+  "devDependencies": {}
+}
